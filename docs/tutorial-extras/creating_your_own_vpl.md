@@ -5,14 +5,19 @@ title: Create a New VPL
 
 # Creating a New VPL Using JSON
 
-In this section, you will learn how to create a new Visual Programming Language (VPL) using a JSON file. This file defines the blocks of your VPL, specifies how the blocks can connect with each other, and map the visual elements to backend logic.
+In this section, you will learn how to create a new Visual Programming Language (VPL) using a JSON file. This file defines the blocks of your VPL, specifies how the blocks can connect with each other, and maps the visual elements to backend logic.
 
 ---
 
 ## Where to place the JSON
-Navigate to the 'samples' folder where you have to place the JSON file.
 
-unified-vpl-framework --> public --> samples
+Place your JSON file in the `samples` folder inside the project directory.
+
+```bash
+cd unified-vpl-framework/public/samples
+```
+
+---
 
 ## What to include in the JSON file
 To create your own VPL, make a JSON file following this structure:
@@ -28,9 +33,11 @@ To create your own VPL, make a JSON file following this structure:
 Here:
 
 - `"name"` specifies the name of your language.
-- `"type"` represents the category of blocks(e.g. flowchart, block, dataflow, etc.).
+- `"type"` represents the category of blocks (e.g. flowchart, block, dataflow, etc.).
 - `"version"` shows the current version of your language.
 - `"components"` includes the properties of the blocks supported by your VPL
+
+---
 
 ## How to represent Components
 Each component of your VPL must follow this structure:
@@ -97,6 +104,7 @@ Here is a sample JSON file for a dataflow based VPL.
     ]
 }
 ```
+The above example demonstrates an **Input Block** for the dataflow-based VPL, with styling and text properties applied.
 
 ---
 

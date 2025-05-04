@@ -4,6 +4,7 @@ title: Testing your VPL
 ---
 
 # Testing new VPLs
+---
 
 ## How to test a VPL before finalizing it
 
@@ -20,12 +21,15 @@ Once the server starts, you'll see a canvas in the middle and a vertical toolbar
 
 3. Click on the **Load Language** icon.
 
+![VPL Demo](/img/loadlang.gif)
+
+
 4. Navigate to the **samples** folder where you placed your JSON file.
 
 5. Select your JSON file.
-Now you can see your language loaded and ready to be tested!
+Your language will now be loaded and ready for testing!
 
-6. Test your VPL's components using drag and drop functionality
+6. Test your VPL's components using drag-and-drop functionality
 
 7. Execute your program and validate its working by checking the output shown in the Console window.
 
