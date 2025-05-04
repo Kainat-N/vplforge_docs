@@ -22,7 +22,7 @@ This will display the output of your program on the **Console**.
 **Demo:**  
 The video below provides an example of how to create a program using blockLang:  
 <video width="640" height="360" controls>
-  <source src="/video/Execute_Lang.mp4" type="video/mp4" />
+  <source src="./video/Execute_Lang.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

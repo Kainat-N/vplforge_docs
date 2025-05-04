@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Contributing Guidelines
+title: Contributing to VPLForge
 ---
 
 # Contributing to VPLForge

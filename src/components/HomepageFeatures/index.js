@@ -1,35 +1,44 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'System Architecture',
+    Svg: require('@site/static/img/System_Architecture.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn about the structure and flow of the VPLForge system. Understand how the components interact and contribute to the project goals.
+        <div style={{ marginTop: '1rem' }} className={styles.buttons}>
+        <Link className="button button--secondary button--sm" to="/docs/category/project-architecture">
+           View Architecture
+        </Link>
+        </div>
       </>
     ),
   },
+  // {
+  //   title: 'Focus on What Matters',
+  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+  //   description: (
+  //     <>
+  //       Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+  //       ahead and move your docs into the <code>docs</code> directory.
+  //     </>
+  //   ),
+  // },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Contribute',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Interested in helping us build? Read the contribution guide and start making an impact.
+        <div style={{ marginTop: '1rem' }}>
+          <Link className="button button--secondary button--sm" to="/docs/category/contributing-guidelines">
+            View Guide
+          </Link>
+        </div>
       </>
     ),
   },

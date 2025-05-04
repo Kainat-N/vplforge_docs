@@ -9,9 +9,10 @@ Now that you’ve launched the VPLForge framework, you'll see a clean and organi
 *Figure 1: Initial view of the Unified Framework*   -->
 
 <video width="640" height="360" controls>
-  <source src="/video/Unified-vpl-user-interface.mp4" type="video/mp4" />
+  <source src="./video/Unified-vpl-user-interface.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
+
 
 Here's a breakdown of the key UI elements:  
 - **Canvas**  
