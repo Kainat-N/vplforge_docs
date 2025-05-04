@@ -1,8 +1,0 @@
-{
-  "label": "User Manual",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "As a VPL User, follow these simple steps to setup and run the VPLForge framework on your system:"
-  }
-}
