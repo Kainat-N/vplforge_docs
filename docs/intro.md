@@ -19,9 +19,9 @@ VPLForge enables rapid development of visual programming environments by providi
 ### Technologies Used
 
 - React.js for the visual interface
-- TypeScript for type-safe development
-- WebAssembly for performance-critical components
-- Graph-based layout engine
+- JavaScript (91.6%)
+- CSS (6.6%)
+- HTML (1.8%)
 
 ---
 
@@ -48,9 +48,9 @@ Most existing VPLs are built from scratch, requiring significant effort and expe
 
 ## 1.4 Use Cases
 
-- 🎓 **Educational Tools**: Create intuitive block-based environments for teaching coding.
-- ⚙️ **Rapid Prototyping**: Build quick workflows for IoT and robotics projects.
-- 🧠 **Domain-Specific Automation**: Tailor VPLs for business logic, automation, or simulations.
+- **Educational Tools**: Create intuitive block-based environments for teaching coding.
+- **Rapid Prototyping**: Build quick workflows for IoT and robotics projects.
+- **Domain-Specific Automation**: Tailor VPLs for business logic, automation, or simulations.
 
 ---
 
